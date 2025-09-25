@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style con Tailwind</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="max-w-xl mx-auto mt-4
+  min-h-dvh
+  bg-gradient-to-b from-black via-sky-950 to-gray-800">
+  
+  <header class="text-white">
+
+    <img src="./assets/diego-amy.jpg" alt="Diego und Amy"  class="w-[6800px] h-[500px] mask-radial-at-center mask-radial-from-50% mask-radial-to-70%  object-cover">
+
+    <span>
+      <h3 class="text-3xl text-left mt-4 font-serif">Diego Landolt</h3>
+      <p class="text-left mt-1 font-mono">Frontend Developer</p>
+    </span>
+
+
+<section class="flex gap-2 mt-4 justify-center">
+     <!-- Instagram -->
+      <a
+  href="https://www.instagram.com/"
+  target="_blank"
+  aria-label="Instagram"
+  title="Ir a Instagram"
+  class="bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] p-2 w-12 h-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform"
+>
+  <svg class="w-6 h-6 text-white">
+    <use xlink:href="assets/sprite.svg#icon-instagram"></use>
+  </svg>
+</a>
+
+
+      <!-- GitHub (Original: Schwarz) -->
+  <a class="bg-gray-900 border border-red-800 p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" 
+    href="https://github.com/" target="_blank" aria-label="GitHub" title="Ir a GitHub">
+    <svg class="w-8 h-8 text-white">
+      <use xlink:href="assets/sprite.svg#icon-github"></use>
+    </svg>
+  </a>
+
+  <!-- LinkedIn (Original: #0077B5) -->
+  <a class="bg-[#0077B5] p-2 size-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform" 
+    href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn" title="Ir a LinkedIn">
+    <svg class="w-8 h-8 text-white">
+      <use xlink:href="assets/sprite.svg#icon-linkedin"></use>
+    </svg>
+  </a>
+
+</section>
+ 
+
+
+
+  </header>
+
+  <main>
+    <section class="mt-6 text-white text-center px-1">
+      <h2 class="text-2xl font-serif mb-2">Sobre mi</h2>
+      <p class="text-justify font-mono">Hola, soy Diego Landolt, un desarrollador frontend apasionado por crear experiencias web atractivas y funcionales. Con habilidades en HTML, CSS y JavaScript, React me esfuerzo por transformar ideas en realidad digital. Siempre estoy buscando aprender nuevas tecnologías y mejorar mis habilidades para ofrecer soluciones innovadoras. ¡Conectemos y construyamos algo increíble juntos!</p>
+    </section>
+<p>Aqui vienen los cursos</p>
+  </main>
+
+  <footer>
+    <p>Hecho de por Diego</p>
+  </footer>
+  
+</body>
+</html>
