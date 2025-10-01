@@ -2,6 +2,8 @@
 
 Este es un proyecto temporal creado con el objetivo de aprender y practicar Tailwind CSS. Consiste únicamente en un archivo index.html, donde se experimenta con estilos básicos, diseño responsivo y utilidades de Tailwind. Es una base sencilla pensada para familiarizarse con el enfoque utility-first antes de avanzar hacia proyectos más complejos.
 
+https://diego-monfort-landolt.github.io/aprendiendo-tailwind/
+
 ## 🛠️ Cómo contribuir a este proyecto
 
 Este proyecto es una tarjeta simple creada para practicar **Tailwind CSS**, También he añadido **un archivo JavaScript con algunas funciones simples para mejorar la interacción y experimentar con efectos dinámicos**. Aunque es básico, puedes contribuir con mejoras visuales, funcionales o estructurales.
