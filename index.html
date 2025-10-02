@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Style con Tailwind</title>
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
 </head>
 <body class="max-w-xl mx-auto mt-4
   min-h-dvh
@@ -61,6 +62,33 @@
       <h2 class="text-2xl font-serif mb-2">Sobre mi</h2>
       <p class="text-justify font-mono ml-4 mr-4">Hola, soy Diego Landolt, un desarrollador frontend apasionado por crear experiencias web atractivas y funcionales. Con habilidades en HTML, CSS, JavaScript, React, Node.js, Express y TypeScript, me esfuerzo por transformar ideas en realidad digital con eficiencia y estilo. Actualmente estoy desarrollando scripts en Python para automatizar procesos en mi empleo, lo que me permite mejorar mi rendimiento y optimizar tareas repetitivas. Utilizo plataformas como Copilot para seguir aprendiendo nuevos lenguajes de programación y expandir mis conocimientos técnicos. Me encanta crear cosas bonitas con código, combinando funcionalidad con diseño para ofrecer soluciones innovadoras. Siempre estoy buscando crecer, colaborar y construir algo increíble junto a otros apasionados de la tecnología</p>
     </section>
+
+ <section class="overflow-x-auto scroll-smooth snap-x snap-mandatory px-4 py-8">
+  <div class="flex space-x-4 min-w-full sm:min-w-0 ">
+    <!-- Card 1 -->
+    <div class="snap-start flex-shrink-0 w-full sm:w-80 bg-white rounded-lg shadow-md p-4">
+      <h3 class="text-lg font-semibold mb-2">Mi Portafolio</h3>
+      <iframe src="https://diego-monfort-landolt.github.io/Landoltdiego/" class="w-full h-48 rounded-md border" loading="lazy"></iframe>
+      <p class="mt-2 text-sm text-gray-600">Bienvenido a mi portafolio. Aquí presento algunos de mis proyectos recientes, desarrollados con React y Vite. Cada uno refleja mi enfoque en diseño funcional, automatización y rendimiento. Si te interesa colaborar o tienes alguna consulta, puedes contactarme directamente</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="snap-start flex-shrink-0 w-full sm:w-80 bg-white rounded-lg shadow-md p-4">
+      <h3 class="text-lg font-semibold mb-2">Finanz-Tracker</h3>
+      <iframe src="https://diego-monfort-landolt.github.io/finance-app/" class="w-full h-48 rounded-md border" loading="lazy"></iframe>
+      <p class="mt-2 text-sm text-gray-600">Finanz-Tracker.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="snap-start flex-shrink-0 w-full sm:w-80 bg-white rounded-lg shadow-md p-4">
+      <h3 class="text-lg font-semibold mb-2">Previsión meteorológica</h3>
+      <iframe src="https://diego-monfort-landolt.github.io/weather-app/" class="w-full h-48 rounded-md border" loading="lazy"></iframe>
+      <p class="mt-2 text-sm text-gray-600">Previsión meteorológica</p>
+    </div>
+  </div>
+</section>
+
+
   </main>
 
  <footer class="bg-gray-900 text-white mt-12 py-6 px-4 sm:px-6 lg:px-8">
